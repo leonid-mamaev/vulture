@@ -298,7 +298,7 @@ class Vulture(ast.NodeVisitor):
             + self.unused_imports
             + self.unused_methods
             + self.unused_props
-            + self.unused_vars
+            # + self.unused_vars
             + self.unreachable_code
         )
 
